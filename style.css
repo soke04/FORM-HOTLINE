@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(./images/hotline1.jpg);
+    background-attachment: fixed;
+}
+.center{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 723px;
+}
+.content{
+    background-color: black;
+    opacity: 0.8;
+    width: 723px;
+    height: 1750px;
+    color: white;
+    position: absolute;
+}
+.first input{
+    margin-left: 45px;
+    width: 630px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.first .name, .age, .email{
+    width: 50px;
+    height: 20px;
+    margin-left: 45px;
+    margin-top: 50px;
+    font-size: 22px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    
+}
+.second .select{
+    width: 500px;
+    height: 20px;
+    margin-left: 45px;
+    margin-top: 50px;
+    font-size: 22px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.second #select{
+    margin-left: 45px;
+    width: 645px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.second .codecamp{
+    width: 500px;
+    height: 20px;
+    margin-left: 45px;
+    margin-top: 50px;
+    font-size: 22px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.second .radio{
+    margin-top: 30px;
+    margin-left: 45px;
+    width: 630px;
+    height: 70px;
+    padding-left: 10px;
+    font-size: 20px;
+   
+}
+.second input[name="a"]{
+    margin-top: 30px;
+}
+
+.third .scale{
+    width: 600px;
+    height: 20px;
+    margin-left: 45px;
+    margin-top: 50px;
+    font-size: 22px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.third input {
+    margin-top: 30px;
+    margin-left: 60px;
+    height: 20px;
+    padding-left: 10px;
+}
+.third label {
+    font-size: 20px;
+}
+.third textarea{
+        padding-left: 15px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 60px;
+        height: 120px;
+        width: 620px;
+        
+    
+}
+
+button{
+    width: 635px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+}
